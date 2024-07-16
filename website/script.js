@@ -49,3 +49,4 @@ document.getElementById('predictionForm').addEventListener('submit', async funct
         console.error('Error:', error); // Debugging
     }
 });
+

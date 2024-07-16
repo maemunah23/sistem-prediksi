@@ -24,7 +24,7 @@ $predicted_price = $_POST['predicted_price'];
 var_dump($_POST);
 
         // Masukkan hasil prediksi ke dalam tabel hasil_tes
-        $sql_insert = "INSERT INTO form_prediksi (tahun, bulan, minggu, hari, jumlahPasokan, hariRaya, predicted_price) VALUES ('$tahun', '$bulan', '$minggu', '$hari', '$jumlahPasokan', '$hariRaya', '$precited_price')";
+        $sql_insert = "INSERT INTO form_prediksi (tahun, bulan, minggu, hari, jumlahPasokan, hariRaya, predicted_price) VALUES ('$tahun', '$bulan', '$minggu', '$hari', '$jumlahPasokan', '$hariRaya', '$predicted_price')";
         if ($conn->query($sql_insert) === TRUE) {
             echo "Data berhasil dimasukkan";
         } else {

@@ -10,15 +10,15 @@
     <div class="navbar">
         <h2>Sistem Prediksi Harga Cabai Kecil</h2>
         <ul>
-            <li><a href="index.html" >Home</a></li>
-            <li><a href="form.html" >Prediksi</a></li>
-            <li><a href="informasi.html" >Contact Us</a></li>
+            <li><a href="index.php" >Home</a></li>
+            <li><a href="form.php" >Prediksi</a></li>
+            <li><a href="informasi.php" >Contact Us</a></li>
         </ul>
     </div>
     <div class="content">
         <div id="prediksi" class="page">
             <h1>Prediksi Harga Cabai Kecil</h1>
-            <form id="predictionForm" action="form_process.php" method="POST">
+            <form id="predictionForm"  method="POST">
                 <label for="tahun">Tahun:</label>
                 <input type="number" id="tahun" name="tahun" required>
 
